@@ -35,6 +35,7 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
   - [Networking](#networking)
   - [Office & Writing](#office--writing)
   - [Productivity](#productivity)
+  - [Search](#search)
   - [Security](#security)
   - [Social media](#social-media)
   - [Utilities](#utilities)
@@ -55,21 +56,24 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 
 ### Templates
 
-- [tauri-svelte-template](https://github.com/probablykasper/tauri-svelte-template) - Svelte template with cross-platform GitHub action builds, Vite, TypeScript, Svelte Preprocess, hot module replacement, ESLint and Prettier.
-- [tauri-sveltekit-template](https://github.com/deid84/tauri-sveltekit-admin-template) - SvelteKit Admin template with cross-platform GitHub action builds, Vite, TypeScript, Svelte Preprocess, hot module replacement, ESLint and Prettier.
-- [tauri-react-template](https://github.com/oSethoum/tauri-react-template) - React template with Vite, TypeScript, hot module replacement.
+- [angular-tauri](https://github.com/maximegris/angular-tauri) - Angular with Typescript, SASS, and Hot Reload.
+- [tauri-angular-template](https://github.com/charlesxsh/tauri-angular-boilerplate) - Angular template
+- [tauri-clojurescript-template](https://github.com/rome-user/tauri-clojurescript-template) - Minimal ClojureScript template with Shadow CLJS and React.
 - [tauri-deno-starter](https://github.com/marc2332/tauri-deno-starter) - React template using esbuild with Deno.
-- [tauri-vue-template](https://github.com/Uninen/tauri-vue-template) - Vue template with TypeScript, Vite + HMR, Vitest, Tailwind CSS, ESLint, and GitHub Actions.
-- [tauri-vue-template-2](https://github.com/skymen/tauri-vue-template) - Another vue template with Javascript, Vite, Pinia, Vue Router and Github Actions.
+- [tauri-leptos-template](https://gitlab.com/cristofa/tauri-leptos-template) - Leptos template
 - [tauri-nextjs-template](https://github.com/kvnxiao/tauri-nextjs-template) - Next.js (SSG) template, with TailwindCSS, opinionated linting, and GitHub Actions preconfigured.
+- [tauri-nuxt-template](https://github.com/HuakunShen/tauri-nuxt-template) - Nuxt3 template.
+- [tauri-preact-rsbuild-template](https://github.com/Alfredoes234/tauri-preact-rsbuild-template) - Preact template that uses rsbuild, rather than vite.
 - [tauri-react-mantine-vite-template](https://github.com/elibroftw/modern-desktop-app-template) - React Mantine template featuring custom titlebar for Windows, auto publish action, auto update, and more.
 - [tauri-react-parcel-template](https://github.com/henrhie/tauri-react-parcel-template) - React template with Parcel as build tool, TypeScript and hot module replacement.
 - [tauri-rescript-template](https://github.com/JonasKruckenberg/tauri-rescript-template) - Tauri, ReScript, and React template.
-- [tauri-sycamore-template](https://github.com/JonasKruckenberg/tauri-sycamore-template) - Tauri and Sycamore template.
 - [tauri-solid-ts-tailwind-vite-template](https://github.com/AR10Dev/tauri-solid-ts-tailwind-vite) - SolidJS Template preconfigured to use Vite, TypeScript, Tailwind CSS, ESLint and Prettier.
-- [tauri-clojurescript-template](https://github.com/rome-user/tauri-clojurescript-template) - Minimal ClojureScript template with Shadow CLJS and React.
-- [tauri-nuxt-template](https://github.com/HuakunShen/tauri-nuxt-template) - Nuxt3 template
-- [tauri-angular-template](https://github.com/charlesxsh/tauri-angular-boilerplate) - Angular template
+- [tauri-svelte-template](https://github.com/probablykasper/tauri-svelte-template) - Svelte template with cross-platform GitHub action builds, Vite, TypeScript, Svelte Preprocess, hot module replacement, ESLint and Prettier.
+- [tauri-sveltekit-template](https://github.com/deid84/tauri-sveltekit-admin-template) - SvelteKit Admin template with cross-platform GitHub action builds, Vite, TypeScript, Svelte Preprocess, hot module replacement, ESLint and Prettier.
+- [tauri-sycamore-template](https://github.com/JonasKruckenberg/tauri-sycamore-template) - Tauri and Sycamore template.
+- [tauri-vue-template](https://github.com/Uninen/tauri-vue-template) - Vue template with TypeScript, Vite + HMR, Vitest, Tailwind CSS, ESLint, and GitHub Actions.
+- [tauri-vue-template-2](https://github.com/skymen/tauri-vue-template) - Another vue template with Javascript, Vite, Pinia, Vue Router and Github Actions.
+- [tauri-yew-example](https://bitbucket.org/ftegtmeyer/tauri-yew-stopwatch/) - Simple stopwatch with Yew using commands and Tauri events.
 
 ## Development
 
@@ -92,20 +96,26 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [taurpc](https://github.com/MatsDK/TauRPC) - Typesafe IPC wrapper for Tauri commands and events.
 - [tauri-plugin-context-menu](https://github.com/c2r0b/tauri-plugin-context-menu) - Native context menu.
 - [tauri-plugin-network](https://github.com/HuakunShen/tauri-plugin-network) - Tools for reading network information and scanning network.
+- [tauri-plugin-serialport](https://github.com/deid84/tauri-plugin-serialport) - Cross-compatible serialport communication tool.
 - [tauri-plugin-system-info](https://github.com/HuakunShen/tauri-plugin-system-info) - Detailed system information.
 - [tauri-plugin-theme](https://github.com/wyhaya/tauri-plugin-theme) - Dynamically change Tauri App theme.
+- [tauri-awesome-rpc](https://github.com/ahkohd/tauri-awesome-rpc) - Custom invoke system that leverages WebSocket.
+- [tauri-nspanel](https://github.com/ahkohd/tauri-nspanel) - Convert a window to panel.
+- [tauri-plugin-nosleep](https://github.com/pevers/tauri-plugin-nosleep/) - Block the power save functionality in the OS.
 
 ### Integrations
 
-- [vue-cli-plugin-tauri](https://github.com/tauri-apps/vue-cli-plugin-tauri) ![officially maintained] - Turn your Vue SPA into a lightweight cross-platform desktop app.
-- [vite-plugin-tauri](https://github.com/amrbashir/vite-plugin-tauri) - Integrate Tauri in a Vite project to build cross-platform apps.
-- [axios-tauri-adapter](https://git.kaki87.net/KaKi87/axios-tauri-adapter) - `axios` adapter for the `@tauri-apps/api/http` module.
-- [svelte-tauri-filedrop](https://github.com/probablykasper/svelte-tauri-filedrop) - File drop handling component for Svelte.
 - [Astrodon](https://github.com/astrodon/astrodon) - Make Tauri desktop apps with Deno.
-- [ngx-tauri](https://codeberg.org/crapsilon/ngx-tauri) - Small lib to wrap around functions from tauri modules, to integrate easier with Angular.
-- [tauri-update-cloudflare](https://github.com/KilleenCode/tauri-update-cloudflare) - One-click deploy a Tauri Update Server to Cloudflare.
+- [Tauri Specta](https://github.com/oscartbeaumont/tauri-specta) - Completely typesafe Tauri commands.
+- [axios-tauri-adapter](https://git.kaki87.net/KaKi87/axios-tauri-adapter) - `axios` adapter for the `@tauri-apps/api/http` module.
 - [axios-tauri-api-adapter](https://github.com/persiliao/axios-tauri-api-adapter) - Makes it easy to use Axios in Tauri, `axios` adapter for the `@tauri-apps/api/http` module.
+- [ngx-tauri](https://codeberg.org/crapsilon/ngx-tauri) - Small lib to wrap around functions from tauri modules, to integrate easier with Angular.
+- [svelte-tauri-filedrop](https://github.com/probablykasper/svelte-tauri-filedrop) - File drop handling component for Svelte.
+- [tauri-macos-menubar-app-example](https://github.com/ahkohd/tauri-macos-menubar-app-example) - Example macOS Menubar app project.
+- [tauri-macos-spotlight-example](https://github.com/ahkohd/tauri-macos-spotlight-example) - Example macOS Spotlight app project.
+- [tauri-update-cloudflare](https://github.com/KilleenCode/tauri-update-cloudflare) - One-click deploy a Tauri Update Server to Cloudflare.
 - [tauri-update-server](https://git.kaki87.net/KaKi87/tauri-update-server) - Automatically interface the Tauri updater with git repository releases.
+- [vite-plugin-tauri](https://github.com/amrbashir/vite-plugin-tauri) - Integrate Tauri in a Vite project to build cross-platform apps.
 
 ### Articles
 
@@ -123,8 +133,10 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [Curses](https://github.com/mmpneo/curses) - Speech-to-Text and Text-to-Speech captions for OBS, VRChat, Twitch chat and more.
 - [Douyin Downloader](https://github.com/lzdyes/douyin-downloader) - Cross-platform douyin video downloader.
 - [Hypetrigger](https://hypetrigger.io/) ![closed source] - Detect highlight clips in video with FFMPEG + Tensorflow on the GPU.
+- [Jellyfin Vue](https://github.com/jellyfin/jellyfin-vue) - GUI client for a Jellyfin server based on Vue.js and Tauri.
 - [mediarepo](https://github.com/Trivernis/mediarepo) - Tag-based media management application.
 - [Mr Tagger](https://github.com/probablykasper/mr-tagger) - Music file tagging app.
+- [Lofi Engine](https://github.com/meel-hd/lofi-engine) - Generate Lo-Fi music on the go and locally.
 
 ### ChatGPT clients
 
@@ -134,32 +146,40 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [ChatGPT-Desktop](https://github.com/Synaptrix/ChatGPT-Desktop) - Cross-platform productivity ChatGPT assistant launcher.
 - [Orion](https://github.com/taecontrol/orion) - Cross-platform app that lets you create multiple AI assistants with specific goals powered with ChatGPT.
 - [QuickGPT](https://github.com/dubisdev/quickgpt) - Lightweight AI assistant for Windows.
+- [Yack](https://github.com/rajatkulkarni95/yack) - Spotlight like app for interfacing with GPT APIs
 
 ### Data
 
 - [BS Redis Desktop Client](https://github.com/fuyoo/bs-redis-desktop-client) - The Best Surprise Redis Desktop Client.
 - [Dataflare](https://dataflare.app) ![closed source] ![paid] - Simple and elegant database manager.
+- [Duckling](https://github.com/l1xnan/duckling) - Lightweight and fast viewer for csv/parquet files and databases such as DuckDB, SQLite, PostgreSQL, MySQL, Clickhouse, etc.
 - [Mason](https://mason.app) ![closed source] - Seamlessly query, visualize and share data with your team.
-- [pgMagic🪄](https://pgmagic.app/?ref=awesometauri) ![closed source] ![paid] - GUI client to talk to Postgres in SQL or with natural language. `TAURIRULES` for 20% off.
+- [Noir](https://noirdb.dev) - Keyboard-driven database management client.
+- [pgMagic🪄](https://pgmagic.app/?ref=awesometauri) ![closed source] ![paid] - GUI client to talk to Postgres in SQL or with natural language.
 
 ### Developer tools
 
 - [AHQ Store](https://github.com/ahqsoftwares/tauri-ahq-store) - Publish, Update and Install apps to the Windows-specific AHQ Store.
 - [AppCenter Companion](https://github.com/zenoxs/tauri-appcenter-companion) - Regroup, build and track your `VS App Center` apps.
+- [AppHub](https://github.com/francesco-gaglione/AppHub) - Streamlines .appImage package installation, management, and uninstallation through an intuitive Linux desktop interface.
 - [Aptakube](https://aptakube.com/) ![closed source] - Multi-cluster Kubernetes UI.
 - [claws](https://clawsapp.com/) ![closed source] - Visual interface for the AWS CLI.
 - [DevBox](https://www.dev-box.app/) ![closed source] - Many useful tools for developers, like generators, viewers, converters, etc.
+- [DevTools-X](https://github.com/fosslife/devtools-x) - Collection of 30+ cross platform development utilities. 
 - [Dropcode](https://github.com/egoist/dropcode) - Simple and lightweight code snippet manager.
 - [Echoo](https://github.com/zsmatrix62/echoo-app) - Offline/Online utilities for developers on MacOS & Windows.
-- [GitButler](https://gitbutler.com) ![closed source] - GitButler is a new Source Code Management system.
+- [GitButler](https://gitbutler.com) - GitButler is a new Source Code Management system.
 - [GitLight](https://github.com/colinlienard/gitlight) - GitHub & GitLab notifications on your desktop.
 - [Hoppscotch](https://hoppscotch.com/download) ![closed source] - Trusted by millions of developers to build, test and share APIs.
+- [Keadex Mina](https://github.com/keadex/keadex) - Open Source, serverless IDE to easily code and organize at a scale C4 model diagrams.
 - [KFtray](https://github.com/hcavarsan/kftray) - A tray application that manages port forwarding in Kubernetes.
 - [Soda](https://github.com/Web3-Builders-Alliance/soda) - Generate source code from an IDL.
 - [Pake](https://github.com/tw93/Pake) - Turn any webpage into a desktop app with Rust with ease.
 - [Rivet](https://github.com/Ironclad/rivet) - Visual programming environment for creating AI features and agents.
+- [TableX](https://tablex-tan.vercel.app/) - Table viewer for modern developers
 - [Tauri Mobile Test](https://github.com/dedSyn4ps3/tauri-mobile-test) - Create and build cross-platform mobile applications.
 - [verbcode](https://www.verbcode.com) ![closed source] ![paid] - Simplify your localization journey
+- [Yaak](https://yaak.app) ![closed source] - Interact with REST and GraphQL APIs
 
 ### Email & Feeds
 
@@ -176,7 +196,6 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [Orange](https://github.com/naaive/orange) - Cross-platform file search engine that can quickly locate files or folders based on keywords.
 - [Payload](https://payload.app/) ![closed source] - Drag & drop file transfers over local networks.
 - [Spacedrive](https://github.com/spacedriveapp/spacedrive) - A file explorer from the future.
-- [Spyglass](https://github.com/a5huynh/spyglass) - Personal search engine that indexes your files/folders, cloud accounts, and whatever interests you on the internet.
 - [SquirrelDisk](https://github.com/adileo/squirreldisk) - Beautiful cross-platform disk usage analysis tool.
 - [Time Machine Inspector](https://github.com/probablykasper/time-machine-inspector) - Find out what's taking up your Time Machine backup space.
 - [Xplorer](https://github.com/kimlimjustin/xplorer) - Customizable, modern and cross-platform File Explorer.
@@ -197,7 +216,9 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [CubeShuffle](https://github.com/philipborg/CubeShuffle) - Card game shuffling utility.
 - [En Croissant](https://github.com/franciscoBSalgueiro/en-croissant) - Chess database and game analysis app.
 - [FishLauncher](https://github.com/fishfight/FishLauncher) - Cross-platform launcher for `Fish Fight`.
+- [OpenGOAL](https://github.com/open-goal/launcher) - Cross-platform installer, mod-manager and launcher for `OpenGOAL`; the reverse engineered PC ports of the Jak and Daxter series.
 - [OyasumiVR](https://github.com/Raphiiko/OyasumiVR) - Software that helps you sleep in virtual reality, for use with SteamVR, VRChat, and more.
+- [Resolute](https://github.com/Gawdl3y/Resolute) - User-friendly, cross-platform mod manager for the game Resonite.
 - [Steam Art Manager](https://github.com/Tormak9970/Steam-Art-Manager) - Tool for customizing the art of your Steam games.
 - [Teyvat Guide](https://github.com/BTMuli/TeyvatGuide) - Game Tool for Genshin Impact player.
 
@@ -211,13 +232,15 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [Manjaro Starter](https://github.com/oguzkaganeren/manjaro-starter) - Documentation and support app for new Manjaro users.
 - [Piano Trainer](https://github.com/ZaneH/piano-trainer) - Practice piano chords, scales, and more using your MIDI keyboard.
 - [Solars](https://github.com/hiltontj/solars) - Visualize the planets of our solar system.
-- [Thot](https://github.com/thot-data/thot) - Scientific data assistant.
+- [Syre](https://github.com/syre-data/syre) - Scientific data assistant.
 
 ### Networking
 
+- [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev) - Continuation of Clash Verge, a rule-based proxy.
 - [CyberAPI](https://github.com/vicanso/cyberapi) - API tool client for developer.
 - [Jexpe](https://github.com/jexpe-apps/jexpe) - Cross-platform, open source SSH and SFTP client that makes connecting to your remote servers easy.
 - [Mail-Dev](https://github.com/samirdjelal/mail-dev) - Cross-platform, local SMTP server for email testing/debugging.
+- [Nhex](https://github.com/nhexirc/nhex) - Next-generation IRC client inspired by HexChat.
 - [RustDesk](https://github.com/rustdesk/rustdesk-server) - Self-hosted server for RustDesk, an open source remote desktop.
 - [T-Shell](https://github.com/TheBlindM/T-Shell) - An open-source SSH, SFTP intelligent command line terminal application.
 - [TunnlTo](https://github.com/TunnlTo/desktop-app) - Windows WireGuard VPN client built for split tunneling.
@@ -230,9 +253,11 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [Bidirectional](https://github.com/samirdjelal/bidirectional) - Write Arabic text in apps that don't support bidirectional text.
 - [Blank](https://github.com/FPurchess/blank) - Minimalistic, opinionated markdown editor made for writing.
 - [Ensō](https://enso.sonnet.io) ![closed source] - Write now, edit later. Ensō is a writing tool that helps you enter a state of flow.
+- [Handwriting keyboard](https://github.com/BigIskander/Handwriting-keyboard-for-Linux-tesseract) - Handwriting keyboard for Linux X11 desktop environment.
 - [JournalV](https://github.com/ahmedkapro/journalv) - Journaling app for your days and dreams.
 - [MarkFlowy](https://github.com/drl990114/MarkFlowy) - Modern markdown editor application with built-in ChatGPT extension.
 - [MDX Editor](https://github.com/maqi1520/mdx-editor/tree/tauri-app) - Versatile WeChat typesetting editor and cross-platform Markdown note-taking software.
+- [Noor](https://noor.to/) ![closed source] - Chat app for high-performance teams. Designed for uninterrupted deep work and rapid collaboration.
 - [Notedown](https://github.com/ruralad/notedown) - Minimal, local-first cross-platform note taking app.
 - [Parchment](https://github.com/tywil04/parchment) - Simple local-only cross-platform text editor with basic markdown support.
 - [Semanmeter](https://yibiao.fun/) ![closed source] - OCR and document conversion software.
@@ -249,11 +274,18 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [Kanri](https://github.com/trobonox/kanri) - Cross-platform, offline-first Kanban board app with a focus on simplicity and user experience.
 - [Kianalol](https://github.com/zxh3/kianalol) - Spotlight-like efficiency tool for swift website access.
 - [Link Saas](https://github.com/linksaas/desktop) - Efficiency tools for software development teams.
+- [MacroGraph](https://github.com/Brendonovich/macrograph) - Visual programming for content creators.
 - [Obliqoro](https://github.com/mrjackwills/obliqoro) - Oblique Strategies meets Pomodoro.
 - [Pomodoro](https://github.com/g07cha/pomodoro) - Time management tool based on Pomodoro technique.
 - [Remind Me Again](https://github.com/probablykasper/remind-me-again) - Toggleable reminders app for Mac, Linux and Windows.
 - [TimeChunks](https://danielulrich.com/en/timechunks/) ![closed source] - Time tracking for freelancers without timers and HH:MM:SS inputs.
 - [WindowPet](https://github.com/SeakMengs/WindowPet) - Overlay app that lets you have adorable companions such as pets and anime characters on your screen.
+- [Zawee](https://zawee.net) ![closed source] - Experience the synergy of Kanban boards, note-taking, file sharing, and more, seamlessly integrated into one powerful application.
+
+### Search
+
+- [Harana](https://github.com/harana/search) - Search your desktop and 300+ cloud apps, instantly.
+- [Spyglass](https://github.com/a5huynh/spyglass) - Personal search engine that indexes your files/folders, cloud accounts, and whatever interests you on the internet.
 
 ### Security
 
@@ -262,6 +294,7 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [Gluhny](https://github.com/angeldollface/gluhny) A graphical interface to validate IMEI numbers.
 - [OneKeePass](https://github.com/OneKeePass/desktop) - Secure, modern, cross-platform and KeePass compatible password manager.
 - [Padloc](https://github.com/padloc/padloc) - Modern, open source password manager for individuals and teams.
+- [Raspirus](https://github.com/Raspirus/Raspirus) - User- and resources-friendly signatures-based malware scanner.
 - [Secops](https://github.com/kunalsin9h/secops) - Ubuntu Operating System security made easy.
 - [Tauthy](https://github.com/pwltr/tauthy) - Cross-platform TOTP authentication client.
 
@@ -277,15 +310,18 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [AgeTimer](https://github.com/dhextras/age-timer-tauri) - Desktop utility that counts your age in real-time.
 - [Browsernaut](https://github.com/billyjacoby/browsernaut) - Browser picker for macOS.
 - [Clipboard Record](https://github.com/lesterhnu/clipboard) - Record Clipboard Content.
-- [Clippy](https://github.com/Don-Cryptus/clippy) - Modern & Fast Clipboard Manager.
+- [Clippy](https://github.com/0-don/clippy) - Modern & Fast Clipboard Manager.
+- [Fancy Screen Recorder](https://fancyapps.com/freebies/) ![closed source] - Record entire screen or a selected area, trim and save as a GIF or video.
 - [Flying Carpet](https://github.com/spieglt/flyingcarpet) - File transfer between Android, iOS, Linux, macOS, and Windows over auto-configured hotspot.
 - [Imagefly](https://www.imagefly.dev/?ref=awesometauri) ![closed source] - Powerful offline image processing toolkit for Windows, Linux and macOS
 - [Jane Reader](https://janereader.com) ![closed source] - Modern and distraction-free epub reader.
+- [KittyCAD](https://github.com/KittyCAD/modeling-app) - Modern 3D mechanical/hardware design. Build 3D models with both code and WYSIWYG editors.
 - [KoS - Key on Screen](https://github.com/dubisdev/key-on-screen) - Show in your screen the keys you are pressing.
 - [Lanaya](https://github.com/ChurchTao/Lanaya) - Easy to use, cross-platform clipboard management.
 - [Linka!](https://github.com/linka-app/linka) - AI powered, easy to use, cross-platform bookmark management tool.
 - [MBTiles Viewer](https://github.com/Akylas/mbview-rs) - MBTiles Viewer and Inspector.
 - [Metronome](https://github.com/ZaneH/metronome) - Visual metronome for Windows, Linux and macOS.
+- [Overlayed](https://overlayed.dev) - Voice chat overlay for Discord.
 - [Pavo](https://github.com/zhanglun/pavo) - Cross-platform desktop wallpaper application.
 - [Peekaboo](https://github.com/angeldollface/peekaboo) A graphical interface to display images.
 - [Pointless](https://github.com/kkoomen/pointless) - Endless drawing canvas.
@@ -301,6 +337,7 @@ A curated collection of the best stuff from the Tauri ecosystem and community.
 - [TrguiNG](https://github.com/openscopeproject/TrguiNG) - Remote GUI for Transmission torrent daemon.
 - [Verve](https://github.com/ParthJadhav/verve) - Launcher for accessing and opening applications, files and documents.
 - [Wallpaper changer](https://github.com/zeet2020/wallpaper-changer-tauri) - Simple wallpaper changer app.
+- [Zap](https://usezap.sh/?ref=awesometauri) ![closed source] - macOS spotlight-like dock that makes navigating apps convenient.
 
 [officially maintained]: https://img.shields.io/badge/official-FFC131?&logo=tauri&logoColor=black
 [closed source]: https://img.shields.io/badge/closed%20source-FFC131?&logoColor=black
